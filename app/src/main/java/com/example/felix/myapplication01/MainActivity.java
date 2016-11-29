@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("testIntent","123");
             intent.setClass(MainActivity.this, OtherActivity.class);
             MainActivity.this.startActivity(intent);
+            int i = 1;
 
 
         }
